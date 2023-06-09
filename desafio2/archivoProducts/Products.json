@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Celular Samsung Galaxy S21",
+    "description": "El último modelo de Samsung con pantalla AMOLED de alta resolución y cámara de 64 MP.",
+    "price": 899.99,
+    "thumbnail": "ruta/imagen1.jpg",
+    "code": "P1",
+    "stock": 50
+  },
+  {
+    "id": 2,
+    "title": "Celular iPhone 12 Pro",
+    "description": "El teléfono insignia de Apple con chip A14 Bionic y cámara triple de 12 MP.",
+    "price": 1099.99,
+    "thumbnail": "ruta/imagen2.jpg",
+    "code": "P2",
+    "stock": 40
+  },
+  {
+    "id": 3,
+    "title": "Celular Xiaomi Mi 11",
+    "description": "Un potente teléfono Xiaomi con procesador Snapdragon y pantalla AMOLED de 6.81 pulgadas.",
+    "price": 799.99,
+    "thumbnail": "ruta/imagen3.jpg",
+    "code": "P3",
+    "stock": 30
+  },
+  {
+    "id": 4,
+    "title": "Celular Huawei P40 Pro",
+    "description": "Un dispositivo Huawei con cámara cuádruple Leica y batería de larga duración.",
+    "price": 899.99,
+    "thumbnail": "ruta/imagen4.jpg",
+    "code": "P4",
+    "stock": 25
+  },
+  {
+    "id": 5,
+    "title": "Celular OnePlus 9 Pro",
+    "description": "Un teléfono OnePlus con procesador Snapdragon 888 y pantalla Fluid AMOLED de 6.7 pulgadas.",
+    "price": 999.99,
+    "thumbnail": "ruta/imagen5.jpg",
+    "code": "P5",
+    "stock": 35
+  }
+]

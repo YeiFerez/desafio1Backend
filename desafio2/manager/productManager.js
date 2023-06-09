@@ -4,7 +4,7 @@ import fs from "fs";
 
 class ProductManager {
   constructor() {
-    this.path = '../archivoHL/products.json' ;
+    this.path = './desafio2/archivoProducts/Products.json' ;
   }
 
   async addProduct(product) {
@@ -23,12 +23,14 @@ class ProductManager {
   async getProducts() {
     try {
       const data = await fs.promises.readFile(this.path, "utf8");
-      return JSON.parse(data);
+      const products = JSON.parse(data);
+      return products;
     } catch (error) {
       console.error("Error al leer el archivo:", error);
       return [];
     }
   }
+  
 
   async getProductById(id) {
     const products = await this.getProducts();
